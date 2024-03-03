@@ -2,6 +2,8 @@ Ambiente virtual ou virtualenv é uma ferramenta que isola as dependências de u
 
 Para cada projeto é criado um ambiente virtual.
 
-Comando para criar ambiente virtual: mkvirtualenv "nome do ambiente"
-Ex.: mkvirtualenv venv
+Comando para criar ambiente virtual: virtualenv "nome do ambiente"
+Ex.: virtualenv venv
+
+Para ativar o ambiente no Windows, navegamos até a aba Scripts e executamos o comando "./activate" ou "source ./activate"
 
