@@ -2,6 +2,8 @@ Ambiente virtual ou virtualenv é uma ferramenta que isola as dependências de u
 
 Para cada projeto é criado um ambiente virtual.
 
+Comando para instalar ferramenta de ambiente virtual: pip install virtualenv
+
 Comando para criar ambiente virtual: virtualenv "nome do ambiente"
 Ex.: virtualenv venv
 
