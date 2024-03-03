@@ -1,0 +1,1 @@
+Repositório para curso de nivelamneto em Python. É composto por diretórios, cada um com as etapas do curso descritas pelo nome do diretório.
