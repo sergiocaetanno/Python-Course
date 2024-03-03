@@ -1,0 +1,16 @@
+O PEP 8, também conhecido como "PEP 8 — Style Guide for Python Code", é um guia de estilo que define recomendações para escrever código Python de forma consistente e legível.
+
+Seguir o PEP 8 traz diversos benefícios, como:
+
+    Melhora a legibilidade do código: O uso de um estilo consistente facilita a compreensão do código por outros desenvolvedores, incluindo você mesmo quando revisitar o código no futuro.
+    Facilita a colaboração: Quando todos em um projeto seguem o mesmo guia de estilo, a colaboração e a manutenção do código se tornam mais fáceis.
+    Demonstra profissionalismo: Seguir o PEP 8 demonstra aos outros desenvolvedores que você leva a sério a qualidade do seu código.
+
+O PEP 8 cobre diversas áreas da escrita de código Python, incluindo:
+
+    Espaçamento: Define o uso de espaços em branco para identação, separação de operadores e elementos de sintaxe.
+    Nomes de variáveis: Recomenda o uso de nomes descritivos e consistentes para variáveis, funções e classes.
+    Imports: Estabelece diretrizes para a organização e ordenação de instruções de importação de módulos.
+    Docstrings: Define o formato recomendado para documentação de código utilizando docstrings.
+
+Você pode encontrar o documento oficial do PEP 8 no site oficial do Python https://peps.python.org/pep-0008/.
