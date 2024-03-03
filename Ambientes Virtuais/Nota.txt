@@ -1,0 +1,7 @@
+Ambiente virtual ou virtualenv é uma ferramenta que isola as dependências de um projeto python. Ou seja, uma cópia de  todos os diretórios (bibliotecas e ferramentas) necessários para um projeto funcionar normalmente.
+
+Para cada projeto é criado um ambiente virtual.
+
+Comando para criar ambiente virtual: mkvirtualenv "nome do ambiente"
+Ex.: mkvirtualenv venv
+
