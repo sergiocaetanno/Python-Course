@@ -20,8 +20,12 @@ print(sorted_numbers)  # Output: [2, 4, 1, 3, 5]
 
 #Example 2:
 data = [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 30}, {"name": "Charlie", "age": 22}]
-adults = list(filter(lambda person: person["age"] >= 21, data))  # Filter adults
-print(adults)  # Output: [{'name': 'Alice', 'age': 25}, {'name': 'Bob', 'age': 30}]
+adults = filter(lambda person: person["age"] >= 21, data)  # Filter adults
+print(adults)
+a = list(adults)  # Output: [{'name': 'Alice', 'age': 25}, {'name': 'Bob', 'age': 30}]
+print(a)
+b = set(adults)
+print(b) #Após realizar algum processamento sobre um lazy iterable, seus valores são removidos da memória
 
 #Example 3:
 strings = ["hello", "world", "how", "are", "you"]
