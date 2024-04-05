@@ -8,11 +8,11 @@ Classe - representa molde de objeto, ou seja, molde para uma abstração de algo
 Objeto: Instância de uma classe
 """
 
-class classe:
-    nome = ""
-    pass #palavra reservada para indicar que ainda não há implementação para algum elemento (loop, fução, atributo)
+class Classe:
+    nome = "" #não recomendado
+    pass #palavra reservada para indicar que ainda não há implementação para algum bloco (loop, fução, atributo)
 
-objeto = classe()
+objeto = Classe()
 objeto.nome = "Joao"
 
 print(objeto.nome)

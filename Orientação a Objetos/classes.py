@@ -11,7 +11,10 @@ Atributo:
 """
 
 class Construtores:
-    def __init__(self, nome = "", ) -> None:
-        pass
+    def __init__(self, nome = "nome") -> None:
+        self.nome = nome
 
 a = Construtores()
+
+
+print(a.nome)
